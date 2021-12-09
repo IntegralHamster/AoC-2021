@@ -44,4 +44,4 @@ for i in range(len(lava)):
             basin_size[num] += 1
 
 basin_sort = sorted(basin_size)
-print(basin_sort[-1]*basin_sort[-2]*basin_sort[-3])
+print(basin_sort[-1]*basin_sort[-2]*basin_sort[-3]) #part 2 answer
