@@ -31,6 +31,6 @@ for chunk in chunks:
     
 
 print(error_sum) #part 1 answer
-print(sorted(fixing_score)[len(fixing_score) // 2]) 
+print(sorted(fixing_score)[len(fixing_score) // 2]) #part 2 answer
 
 
