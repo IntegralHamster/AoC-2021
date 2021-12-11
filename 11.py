@@ -39,7 +39,7 @@ while True:
     if step == 100:
         print(flashes) #part 1 answer
     if inc_flashes == len(octo)*len(octo[0]):
-        print(step)
+        print(step) #part 2 answer
         break
 
 
