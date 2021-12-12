@@ -62,4 +62,4 @@ def way2(adj_list, visited, node):
         return ways
 
 visited = []
-print(way2(adj_list, visited, 'end')) #part 1 answer
+print(way2(adj_list, visited, 'end')) #part 2 answer
