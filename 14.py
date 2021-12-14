@@ -40,14 +40,8 @@ def letter_count(start_poly, inp_str):
                 count[letter] += start_poly[word]
             else:
                 count[letter] = start_poly[word]
-    if inp_str[0] in count.keys():
-        count[inp_str[0]] += 1
-    else:
-        count[inp_str[0]] = 1
-    if inp_str[-1] in count.keys():
-        count[inp_str[-1]] += 1
-    else:
-        count[inp_str[-1]] = 1
+    count[inp_str[0]] += 1
+    count[inp_str[-1]] += 1
     return count
 
 count = letter_count(start_poly, inp_str)
